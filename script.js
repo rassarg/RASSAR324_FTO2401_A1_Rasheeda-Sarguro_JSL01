@@ -13,5 +13,5 @@ function validateSyntax() {
         }
             document.getElementById('result').innerText = result;  // displays the result message as valid or invalid based on input
 }
-// I wasn't sure where and how to add the document.getElementsByClassName to create the red and green circles from CSS, so I used emojis instead.  
+// I wasn't sure where to add the document.getElementsByClassName to create the red and green circles using CSS, so I used emojis instead.  
  
