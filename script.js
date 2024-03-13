@@ -18,7 +18,3 @@ function validateSyntax() {
     }
     document.getElementById('result').innerText = result;
 }
-
-
-
-
