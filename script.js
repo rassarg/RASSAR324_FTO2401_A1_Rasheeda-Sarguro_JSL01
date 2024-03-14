@@ -7,7 +7,7 @@ function validateSyntax() {
         if (
             /\d/.test(input.split('_')[1]) && // \d used to test for digit numerical values after 'pet_'
             /[a-zA-Z]/i.test(input.split('_')[1]) && // testing for upper or lowercase characters
-            !/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(input.split('_')[1]) // testing that it does NOT include special characters after 'pet_'
+            !/[!@#$%^&*()_+\-=\[\]{};:"\\|,.<>\/?]/.test(input.split('_')[1]) // testing that it does NOT include special characters after 'pet_'
         ) {
             result = "Valid Syntax 🟢";
         } else {
